@@ -44,7 +44,7 @@ h1 {
 }
 
 .item1:hover {
-  box-shadow: rgb(255, 0, 170) 0px 3px 12px;
+  box-shadow: rgba(255, 0, 170, 0.226) 0px 3px 12px;
   transform: scale(105%);
 }
 .item2:hover {
