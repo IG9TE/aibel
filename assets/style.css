@@ -5,9 +5,12 @@
 }
 .navbar {
   width: 100%;
-  height: 1vw;
+  height: 10vw;
   background-color: black;
   position: relative;
+}
+.navbarhome {
+  color: white;
 }
 .backdrop {
   width: 100%;
