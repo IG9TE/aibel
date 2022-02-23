@@ -1,64 +1,186 @@
-.background {
+.aibeloverskriftdiv {
   width: 100%;
-  height: 100vw;
-  position: relative;
+  border-radius: 5vw;
 }
-.navbar {
-  width: 100%;
-  height: 10vw;
-  background-color: rgb(0, 0, 0);
-  top: 0;
-}
-.navbarhome {
-  color: white;
-}
-.backdrop {
+.itemscontainer {
+  margin-top: 1vw;
   width: 100%;
   display: inline-block;
-  position: absolute;
-  background-color: antiquewhite;
   display: flex;
-  justify-content: space-around;
-  top: 10%;
+  justify-content: center;
+}
+.centeritemscontainer {
+  width: 95%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.item {
+  width: 20%;
+  height: 25vw;
+  margin: 1vw;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.item:hover {
+  transform: scale(1.04);
 }
 .item1 {
-  width: 25vw;
-  height: 40vw;
-  box-shadow: rgb(120, 0, 150) 0px 3px 8px;
-  background-image: linear-gradient(180deg, rgb(0, 238, 255), rgb(204, 0, 255));
-  border-radius: 5vw;
-  transition: transform 0.5s, box-shadow 0.5s;
+  background-color: rgb(218, 214, 214);
 }
-
 .item2 {
-  width: 25vw;
-  height: 40vw;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-image: linear-gradient(100deg, rgb(255, 0, 221), rgb(204, 0, 255));
+  background-color: rgb(61, 61, 61);
+}
+.item3 {
+  background-color: rgb(94, 93, 93);
+}
+.item4 {
+  background-color: rgb(160, 158, 158);
 }
 
-.item3 {
-  width: 25vw;
-  height: 40vw;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  background-image: linear-gradient(10deg, rgb(255, 0, 221), rgb(204, 0, 255));
-  border-radius: 3vw;
+.Aibeloverskrift {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 80px;
 }
 h1 {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 5vw;
+  font-size: 40px;
 }
-.text {
-  text-align: center;
+/*
+media
+*/
+@media only screen and (max-width: 800px) {
+  .item {
+    width: 40%;
+    height: 50vw;
+    margin: 2vw;
+  }
+  .Aibeloverskrift {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .item {
+    width: 80%;
+    height: 100vw;
+    margin: 4vw;
+  }
+  .Aibeloverskrift {
+    font-size: 10vw;
+  }
 }
 
-.item1:hover {
-  box-shadow: rgba(255, 0, 170, 0.226) 0px 3px 12px;
-  transform: scale(105%);
+/* 
+animasjoner------------------------------------
+*/
+
+/* 
+rgb
+*/
+
+.wrapper {
+  position: absolute;
+  background: linear-gradient(
+    124deg,
+    #ff0055,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #ba00f3,
+    #ff00bf
+  );
+  background-size: 1800% 1800%;
+
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+  animation: rainbow 18s ease infinite;
 }
-.item2:hover {
-  transform: rotate(5deg);
+@-webkit-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
 }
-.item3:hover {
-  transform: rotate(-3deg);
+@-moz-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@-o-keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+@keyframes rainbow {
+  0% {
+    background-position: 0% 82%;
+  }
+  50% {
+    background-position: 100% 19%;
+  }
+  100% {
+    background-position: 0% 82%;
+  }
+}
+/* 
+Text Animasjon
+*/
+.tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  animation: tracking-in-expand 1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
 }

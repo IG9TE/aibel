@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <div class="navbar">
-      <h1 class="navbarhome">Hjem</h1>
-    </div>
-    <div class="background">
-      <div class="backdrop">
-        <div class="item1"><h1 class="text">hello1</h1></div>
-        <div class="item2"><h1>hello2</h1></div>
-        <div class="item3"><h1>hello3</h1></div>
+  <div class="background">
+    <div class="wall"></div>
+    <div class="aibeloverskriftdiv"><h2 class="Aibeloverskrift">Aibel</h2></div>
+    <div class="itemscontainer">
+      <div class="centeritemscontainer">
+        <div class="item item1"></div>
+        <div class="item item2"></div>
+        <div class="item item3"></div>
+        <div class="item item4"></div>
       </div>
     </div>
   </div>
