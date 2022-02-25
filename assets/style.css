@@ -1,9 +1,27 @@
+.bilde {
+  width: 82%;
+  border-radius: 1vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.itembilde {
+  width: 100%;
+}
+.aibelbildecenter {
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+}
+
 .aibeloverskriftdiv {
   width: 100%;
   border-radius: 5vw;
+  margin-bottom: 1vw;
 }
 .itemscontainer {
-  margin-top: 1vw;
   width: 100%;
   display: inline-block;
   display: flex;
@@ -17,29 +35,30 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
+a {
+  text-decoration: none;
+  color: inherit;
+}
 .item {
   width: 20%;
   height: 25vw;
   margin: 1vw;
   border-radius: 10px;
   transition: all 0.3s;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  background-color: rgb(240, 240, 240);
 }
 .item:hover {
   transform: scale(1.04);
 }
-.item1 {
-  background-color: rgb(218, 214, 214);
+.box {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(240, 240, 240);
+  display: inline-block;
+  text-align: center;
 }
-.item2 {
-  background-color: rgb(61, 61, 61);
-}
-.item3 {
-  background-color: rgb(94, 93, 93);
-}
-.item4 {
-  background-color: rgb(160, 158, 158);
-}
-
 .Aibeloverskrift {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -48,6 +67,36 @@
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
+}
+.beskrivelse {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 1vw;
+}
+.allcontent {
+  width: 100%;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.allcontentcenter {
+  border-radius: 1vw;
+  width: 82%;
+  display: inline-block;
+  background-color: rgb(240, 240, 240);
+  margin: 1vw;
+  margin-bottom: 3vw;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.envw {
+  margin: 1vw;
+}
+.item1contenttext {
+  margin: 1vw;
+  text-align: center;
 }
 /*
 media
@@ -61,6 +110,12 @@ media
   .Aibeloverskrift {
     font-size: 60px;
   }
+  .allcontentcenter {
+    width: 80%;
+  }
+  .bilde {
+    width: 80%;
+  }
 }
 @media only screen and (max-width: 600px) {
   .item {
@@ -71,81 +126,18 @@ media
   .Aibeloverskrift {
     font-size: 10vw;
   }
+  .allcontentcenter {
+    width: 78%;
+  }
+  .bilde {
+    width: 78%;
+  }
 }
 
 /* 
 animasjoner------------------------------------
 */
 
-/* 
-rgb
-*/
-
-.wrapper {
-  position: absolute;
-  background: linear-gradient(
-    124deg,
-    #ff0055,
-    #e81d1d,
-    #e8b71d,
-    #e3e81d,
-    #1de840,
-    #1ddde8,
-    #2b1de8,
-    #ba00f3,
-    #ff00bf
-  );
-  background-size: 1800% 1800%;
-
-  -webkit-animation: rainbow 18s ease infinite;
-  -z-animation: rainbow 18s ease infinite;
-  -o-animation: rainbow 18s ease infinite;
-  animation: rainbow 18s ease infinite;
-}
-@-webkit-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@-moz-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@-o-keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
-@keyframes rainbow {
-  0% {
-    background-position: 0% 82%;
-  }
-  50% {
-    background-position: 100% 19%;
-  }
-  100% {
-    background-position: 0% 82%;
-  }
-}
 /* 
 Text Animasjon
 */
@@ -181,6 +173,7 @@ Text Animasjon
 
 html,
 body {
+  scroll-behavior: smooth;
   margin: 0;
   padding: 0;
 }

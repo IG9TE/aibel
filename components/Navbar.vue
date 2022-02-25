@@ -1,6 +1,6 @@
 <template>
   <div class="navbar">
-    <h1 class="navbarhome tracking-in-expand">Hjem</h1>
+    <h1 class="navbarhome tracking-in-expand">Aibel</h1>
   </div>
 </template>
 

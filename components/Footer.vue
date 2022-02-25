@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <h1 class="footertext">Laget av Theo Toft</h1>
+    <h1 class="footertext">Laget av Theo Toft med html og css</h1>
   </div>
 </template>
 
@@ -15,6 +15,7 @@
   display: flex;
   justify-content: center;
 }
+
 .footertext {
   font-size: 15px;
   color: white;
