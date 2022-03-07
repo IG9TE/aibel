@@ -1,6 +1,6 @@
 <template>
   <div class="footer">
-    <h1 class="footertext">Laget av Theo Toft med html og css</h1>
+    <h1 class="footertext">Laget av Theo Toft i Visual Studio Code</h1>
   </div>
 </template>
 
