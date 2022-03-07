@@ -10,7 +10,7 @@
             <div class="box">
               <h1>Hva jobber aibel med?</h1>
             </div>
-            <img class="itembilde" src=".\jobb.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./jobb.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -19,7 +19,7 @@
             <div class="box">
               <h1>Hvor ligger aibel?</h1>
             </div>
-            <img class="itembilde" src=".\kart.png" alt="bilde av aibel" />
+            <img class="itembilde" src="./kart.png" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -28,7 +28,7 @@
             <div class="box">
               <h1>Hvem jobber aibel med?</h1>
             </div>
-            <img class="itembilde" src=".\team.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./team.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -37,7 +37,7 @@
             <div class="box">
               <h1>Hvem jobber aibel mot?</h1>
             </div>
-            <img class="itembilde" src=".\enemy.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./enemy.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -46,7 +46,7 @@
             <div class="box">
               <h1>Hvor mange er ansatt i aibel?</h1>
             </div>
-            <img class="itembilde" src=".\workers.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./workers.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -55,7 +55,7 @@
             <div class="box">
               <h1>Aibel og teknologi</h1>
             </div>
-            <img class="itembilde" src=".\tech.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./tech.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -64,7 +64,7 @@
             <div class="box">
               <h1>Aibel og naturressurser</h1>
             </div>
-            <img class="itembilde" src=".\Resources.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./Resources.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -73,7 +73,7 @@
             <div class="box">
               <h1>Aibel og utslipp</h1>
             </div>
-            <img class="itembilde" src=".\utslipp.jpg" alt="bilde av aibel" />
+            <img class="itembilde" src="./utslipp.jpg" alt="bilde av aibel" />
           </a>
         </div>
 
@@ -82,7 +82,7 @@
             <div class="box">
               <h1>Aibels ringvirkninger</h1>
             </div>
-            <img class="itembilde" src=".\rings.jpg" alt="bilde av ringer" />
+            <img class="itembilde" src="./rings.jpg" alt="bilde av ringer" />
           </a>
         </div>
 
@@ -91,16 +91,16 @@
             <div class="box">
               <h1>Aibels betingelser</h1>
             </div>
-            <img class="itembilde" src=".\terms.jpg" alt="bilde av ramme" />
+            <img class="itembilde" src="./terms.jpg" alt="bilde av ramme" />
           </a>
         </div>
       </div>
     </div>
     <div class="aibelbildecenter">
-      <img class="bilde" src=".\aibel.png" alt="bilde av aibel" />
+      <img class="bilde" src="./aibel.png" alt="bilde av aibel" />
     </div>
     <div class="aibelbildecenter">
-      <img class="bilde" src=".\map.png" alt="bilde av aibel" />
+      <img class="bilde" src="./map.png" alt="bilde av aibel" />
     </div>
 
     <div class="allcontent">
